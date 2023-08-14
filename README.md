@@ -5,6 +5,15 @@
 
 Quiz App Vue is a simple quiz application built with Vue.js. The application presents users with questions and four answer options. Users have 30 seconds to select an answer for each question. If the answer is not selected within the time limit, points will be deducted. At the end of the quiz, the total score will be displayed.
 
+## Deploy to gh-pages
+
+To deploy site to gh-pages
+
+```shell
+npm run build
+git subtree push --prefix dist origin gh-pages
+```
+
 ## Project Setup
 
 To set up the Quiz App Vue project, follow these steps:
